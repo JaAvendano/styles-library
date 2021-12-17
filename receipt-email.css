@@ -1,0 +1,280 @@
+.info-display {
+  margin: 0 1%;
+}
+.card-logo {
+  width: 30px;
+  height: 25px;
+  margin: 0 4px;
+}
+.component-container{
+  background-color: grey;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+@media (min-width: 1400px) {
+  .component-container {
+    margin-top: 2%;
+    width: 100%;
+  }
+  .class-item {
+    display: flex;
+    flex-flow: row;
+  }
+  .title-holder {
+    width: 100%;
+    text-align: center;
+  }
+  .email-logo {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  }
+
+  .logo-holder {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  .receipt-header {
+    padding: 2%;
+    width: 66%;
+    height: 275px;
+    margin: auto;
+    border-radius: 25px;
+  }
+  .receipt-summery {
+    padding: 2%;
+    width: 66%;
+    margin: 1%;
+    margin: auto;
+  }
+
+  .contact-display {
+    height: 30px;
+    width: 100%;
+  }
+  .name-display {
+    float: left;
+    width: 50%;
+  }
+  .email-display {
+    width: 50%;
+    float: right;
+  }
+  .card-header {
+    height: 80px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+  }
+  .order-summery {
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+  }
+  .user-info {
+    height: 275px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+  }
+  .billing-display {
+    width: 50%;
+    float: left;
+  }
+  .shipping-display {
+    width: 50%;
+    float: right;
+  }
+
+  .items-list {
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+  }
+  .class-item {
+    display: flex;
+    flex-flow: row;
+  }
+}
+@media (max-width: 1400px) {
+  .component-container {
+    margin-top: 2%;
+    width: 100%;
+  }
+  .receipt-header {
+    padding: 2%;
+    width: 66%;
+    height: 275px;
+    margin: auto;
+    border-radius: 25px;
+  }
+  .title-holder {
+    width: 100%;
+    text-align: center;
+  }
+  .email-logo {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  }
+
+  .logo-holder {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  .receipt-summery {
+    padding: 2%;
+    width: 75%;
+    margin: 1%;
+    margin: auto;
+  }
+  .card-header {
+    height: 80px;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(58, 58, 58);
+  }
+  .contact-display {
+    height: 30px;
+    width: 100%;
+  }
+  .name-display {
+    float: left;
+    width: 50%;
+  }
+  .email-display {
+    width: 50%;
+    float: right;
+  }
+  .billing-display {
+    width: 50%;
+    float: left;
+  }
+  .shipping-display {
+    width: 50%;
+    float: right;
+  }
+
+  .order-summery {
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+  }
+  .user-info {
+    height: 275px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+  }
+
+  .items-list {
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    padding: 1%;
+    margin: 1%;
+  }
+  .class-item {
+    display: flex;
+    flex-flow: row;
+  }
+}
+
+@media (max-width: 1200px) {
+  .user-info {
+    height: 400px;
+  }
+
+  .billing-display {
+    float: none;
+    width: 66%;
+    margin: auto;
+  }
+  .shipping-display {
+    float: none;
+    width: 66%;
+    margin: auto;
+  }
+  .class-item {
+    display: block;
+  }
+  .stepper-container {
+    width: 66%;
+    margin: auto;
+  }
+  .order-wrapper {
+    width: 66%;
+    margin: auto;
+  }
+}
+@media (max-width: 992px) {
+  .user-info {
+    height: 420px;
+  }
+  .contact-display {
+    height: 45px;
+    width: 90%;
+  }
+  .name-display {
+    float: none;
+    width: 100%;
+  }
+  .email-display {
+    float: none;
+    width: 100%;
+  }
+  .billing-display {
+    width: 90%;
+  }
+  .shipping-display {
+    width: 90%;
+  }
+  .stepper-container {
+    width: 90%;
+  }
+  .order-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .user-info {
+    height: 490px;
+  }
+  .receipt-header {
+    width: 90%;
+  }
+  .receipt-summery {
+    width: 90%;
+  }
+}
+@media (max-width: 576px) {
+  .receipt-header {
+    width: 100%;
+  }
+  .receipt-summery {
+    width: 95%;
+  }
+}
+
+@media (max-width: 400px) {
+  .user-info {
+    height: 700px;
+  }
+  .title-holder{
+  font-size: small;
+}
